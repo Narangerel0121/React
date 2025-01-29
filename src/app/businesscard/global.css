@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#body {
+    height: 100%;
+    background-color: bisque;
+    padding: 10px;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 336px;
+    height: 192px;
+    border-radius: 10px;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    padding-left: 25px;
+    margin-bottom: 10px;
+    gap: 20px;
+    position: relative;
+}
+
+.blackSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    inset-inline-end: 0px;
+}
+
+.vectors {
+    position: relative;
+    height: 192px;
+    width: 163px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.logoSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding-top: 25px;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.companyName {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.tag {
+    color: #ffffff;
+    font-size: 6px;
+}
+
+.qrCode {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    top: 65%;
+}
+
+.whiteSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.firstName {
+    font-size: 14px;
+    color: #0071BC;
+}
+
+.lastName {
+    font-size: 14px;
+    color: #F7931E;
+}
+
+.occupation {
+    font-size: 8px;
+    color: #000000;
+}
+
+.oneLine {
+    display: flex;
+    gap: 5px;
+}
+
+.phoneNumber {
+    width: 8px;
+    height: 8px;
+}
+
+.email {
+    width: 7.5px;
+    height: 6.5px;
+}
+
+.address {
+    width: 6px;
+    height: 8px;
+}
+
+.infoTexts {
+    font-size: 8px;
+    line-height: 9.7px;
+    color: #000000;
+}
